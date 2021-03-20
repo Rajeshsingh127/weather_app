@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{url_for('static',filename='main.css')}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>RESULT</title>
+</head>
+<body>
+<div class="result">
+    <h3>weather in {{ location }}</h3>
+    <h2>Temperature: {{temp}}°C</h2>
+    <h3>Maxium temp: {{temp_max}}°C</h3>
+    <h3>Minimum temp: {{temp_min}}°C</h3>
+    <h2>weather is {{weather}}</h2>
+</div>
+</body>
+</html>
